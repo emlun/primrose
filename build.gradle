@@ -11,4 +11,7 @@ jar {
       'Implementation-Version': project.version,
     )
   }
+
+  from 'LICENSE'
+  from 'LICENSE.lesser'
 }
