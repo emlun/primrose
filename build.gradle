@@ -3,3 +3,12 @@ apply plugin: 'scala'
 task wrapper(type: Wrapper) {
   gradleVersion = '2.14'
 }
+
+jar {
+  manifest {
+    attributes(
+      'Implementation-Title': 'Primrose: Strongly typed "primitives" for Scala',
+      'Implementation-Version': project.version,
+    )
+  }
+}
