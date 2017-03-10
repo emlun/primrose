@@ -2,7 +2,7 @@ Primrose - Strongly typed "primitives" for Scala
 ===
 
 This library aims to make as many of the wishes [this article][jayway] as
-possible come true.
+possible come true. It is currently in the research stage.
 
 
 License
